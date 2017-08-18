@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+          /*float p1 = 3.14F;
+            String nome = "Teste";
+            int num = 12;
+            Console.WriteLine(p1.GetType());
+            Console.WriteLine(nome.GetType());
+            Console.WriteLine(num.GetType());*/
+
+            /*String nome = "Ulisses Geroldi";
+            int idade = 18;
+
+            Console.WriteLine(nome.GetType());
+            Console.WriteLine(idade.GetType());*/
+
+            /*String num = "123456789";
+            int n = int.Parse(num);
+            Console.WriteLine(n);
+            Console.WriteLine(n.GetType());*/
+
+            /*String nome = "Ulisses Geroldi";
+            int idade = 18;
+
+            Console.WriteLine("o meu nome é {0} e minha idade é {1} anos", nome, idade);*/
+
+            /*var idade = 18;
+            var nome = "ulisses geroldi";
+
+            Console.WriteLine("o meu nome é {0} e minha idade é {1} anos", nome, idade);*/
+            
+            /*string cpf = "39279117807";
+            string municipio = cpf.Substring(8, 1);
+            
+            Console.WriteLine("Municipio desse Cpf {0} é o codigo identificador {1}", cpf, municipio);*/
+            
+            /*string nome = "ulisses";
+         
+            Console.WriteLine(String.Concat(nome, " Ulisses"));*/
+           
+        
+            /*string name = "C#!C++!Pyton";
+            string[] vet = name.Split('!');
+
+            for (int i = 0; i < vet.Length; i++)
+            Console.WriteLine(String.Join("%", vet));*/
+            
+        }
+    }
+}
