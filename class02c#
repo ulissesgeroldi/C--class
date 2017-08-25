@@ -1,0 +1,107 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    public class LinguagemExcepetion : Exception
+    {
+        public LinguagemExcepetion(string msg)
+        {
+            Console.WriteLine(msg);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string linguagem = "java";
+
+            try
+            {
+                if (linguagem == "java")
+                    throw new LinguagemExcepetion("exceção: Linguagem Java");
+            }
+            catch (LinguagemExcepetion e)
+            {
+            }
+        }
+    }
+
+}
+
+------------------------------------------------------------------------------ Others Codes bellow!
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        /* static void Main(string[] args)
+        {
+            int soma = 0;
+            for (int i = 1; i <= 10; i++)
+                soma += i;
+            Console.WriteLine(soma); */
+            
+             /*static void Main(string[] args)
+        {
+            int soma = 0, i = 1;
+            while (i <= 10)
+            {
+                soma ++;
+                i++;
+            }
+            Console.WriteLine(soma);*/
+            
+        static void Main(string[] args)
+        {
+            int soma = 0, i = 1;
+            do
+            {
+                soma ++;
+                i++;
+            } while (i <= 10);
+            Console.WriteLine(soma);
+
+            /*static int somar(int n1, int n2)
+       {
+           return n1 + n2;
+       }
+        
+       static void Main(string[] args)
+       {
+           Console.WriteLine(somar(2, 3));*/
+           
+               class Program
+    {
+
+       /* static void Main(string[] args)
+        {
+            string[] vet = {"Ulisses","Ap","Geroldi"};
+            foreach (string i in vet)
+            {
+                Console.WriteLine(i); /*
+               
+               
+               
+            }
+            
+        }
+
+    }
+}
+        }
+
+   
+    }
+
+}
