@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+   
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int soma = 0;
+            List<int> lista = new List<int>();
+
+            lista.Add(1);
+            lista.Add(2);
+            lista.Add(3);
+
+            //mostrando a lista
+            foreach (int i in lista)
+            {
+                soma += i;
+            }
+            Console.WriteLine(soma);
+        }
+    }
+}
